@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KişilerDataSet1" targetNamespace="http://tempuri.org/KişilerDataSet1.xsd" xmlns:mstns="http://tempuri.org/KişilerDataSet1.xsd" xmlns="http://tempuri.org/KişilerDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="KişilerConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KişilerConnectionString (Settings)" PropertyReference="ApplicationSettings.Staj_projesi.Properties.Settings.GlobalReference.Default.KişilerConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="gosterTableAdapter" GeneratorDataComponentClassName="gosterTableAdapter" Name="goster" UserDataComponentName="gosterTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KişilerConnectionString (Settings)" DbObjectName="goster" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT p_id, p_ad FROM goster</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="p_id" DataSetColumn="p_id" />
+              <Mapping SourceColumn="p_ad" DataSetColumn="p_ad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KişilerDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="KişilerDataSet1" msprop:Generator_UserDSName="KişilerDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="goster" msprop:Generator_TableClassName="gosterDataTable" msprop:Generator_TableVarName="tablegoster" msprop:Generator_TablePropName="goster" msprop:Generator_RowDeletingName="gosterRowDeleting" msprop:Generator_RowChangingName="gosterRowChanging" msprop:Generator_RowEvHandlerName="gosterRowChangeEventHandler" msprop:Generator_RowDeletedName="gosterRowDeleted" msprop:Generator_UserTableName="goster" msprop:Generator_RowChangedName="gosterRowChanged" msprop:Generator_RowEvArgName="gosterRowChangeEvent" msprop:Generator_RowClassName="gosterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="p_id" msprop:Generator_ColumnVarNameInTable="columnp_id" msprop:Generator_ColumnPropNameInRow="p_id" msprop:Generator_ColumnPropNameInTable="p_idColumn" msprop:Generator_UserColumnName="p_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="p_ad" msprop:Generator_ColumnVarNameInTable="columnp_ad" msprop:Generator_ColumnPropNameInRow="p_ad" msprop:Generator_ColumnPropNameInTable="p_adColumn" msprop:Generator_UserColumnName="p_ad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:goster" />
+      <xs:field xpath="mstns:p_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

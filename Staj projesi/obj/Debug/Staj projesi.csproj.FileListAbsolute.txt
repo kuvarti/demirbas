@@ -1,0 +1,19 @@
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\bin\Debug\Staj projesi.exe.config
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\bin\Debug\Staj projesi.exe
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\bin\Debug\Staj projesi.pdb
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.ana_sayfa.resources
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.Properties.Resources.resources
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.Resource1.resources
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj projesi.csproj.GenerateResource.Cache
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj projesi.exe
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj projesi.pdb
+c:\users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.urunler.resources
+C:\Users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.urun_kategori.resources
+C:\Users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.personel.resources
+C:\Users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.departman.resources
+C:\Users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.Meslek.resources
+C:\Users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj_projesi.sorgular.resources
+C:\Users\kahelpdesk\documents\visual studio 2013\Projects\Staj projesi\Staj projesi\obj\Debug\Staj projesi.csprojResolveAssemblyReference.cache
+C:\Users\kahelpdesk\Desktop\Staj projesi\Staj projesi\bin\Debug\Staj projesi.exe.config
+C:\Users\kahelpdesk\Desktop\Staj projesi\Staj projesi\obj\Debug\Staj projesi.exe
+C:\Users\kahelpdesk\Desktop\Staj projesi\Staj projesi\obj\Debug\Staj projesi.pdb
